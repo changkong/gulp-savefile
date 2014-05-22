@@ -3,6 +3,9 @@ gulp-savefile
 
 gulp plugin, write file to disk
 
+[![NPM](https://nodei.co/npm/gulp-savefile.png?downloads=true&stars=true)](https://nodei.co/npm/gulp-savefile/)
+
+
 Usage
 =====
 
