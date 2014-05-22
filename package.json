@@ -1,0 +1,35 @@
+{
+  "name": "gulp-savefile",
+  "version": "0.1.0",
+  "description": "write file to disk",
+  "author": "changkong <changkong012@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "save",
+    "write",
+    "file"
+  ],
+  "bugs": {
+    "url": "https://github.com/changkong/gulp-savefile/issues"
+  },
+  "homepage": "https://github.com/changkong/gulp-savefile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/changkong/gulp-savefile"
+  },
+
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.10",
+    "through2": "~0.4.0"
+  }
+}
