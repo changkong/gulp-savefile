@@ -9,7 +9,7 @@ var fs = require('fs');
 //   2. gulp.watch 时 gulp.src(event.path) 获取的 file.relative 仅有文件名
 //   3. gulp.src 通过通配符匹配的文件，获取的 file.relative 是相对 gulp 启动目录的
 //   4. 我只希望使用当前文件路径保存
-module.exports.savefile = function (opts) {
+module.exports = function (opts) {
   return through.obj(function (file, enc, cb) {
     if (file.isNull()) {
       this.push(file);
@@ -28,6 +28,6 @@ module.exports.savefile = function (opts) {
     }
 
     this.push(file);
-    cb();
+    return cb();
   });
 }
